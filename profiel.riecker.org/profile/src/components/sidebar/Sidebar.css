@@ -1,0 +1,35 @@
+/* profiel.riecker.org/profile/src/components/Sidebar.css */
+
+.sidebar {
+    position: fixed; /* Keeps the sidebar in view even when scrolling */
+    top: 0;
+    right: 20px;
+    width: 150px;
+    height: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensures the sidebar stays on top of other elements */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px; /* Adds space between list items */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 1em;
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .sidebar a:hover,
+  .sidebar a.active {
+    color: #218838; /* Changes color on hover or active state */
+  }
