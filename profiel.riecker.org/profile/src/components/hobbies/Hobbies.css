@@ -1,27 +1,62 @@
+/* profiel.riecker.org/profile/src/components/hobbies/Hobbies.css */
+
 .Hobbies {
-  text-align: center;
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    text-align: center;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
   
   .Hobbies a {
+    /* Add any specific styles for links here */
+  }
   
-  }
-
   .Hobbies p {
-
+    /* Add any specific styles for paragraphs here */
   }
-
+  
   .Hobbies ul {
-
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between items */
   }
-
+  
   .Hobbies li {
     color: #fafafa;
-    
+    display: inline-block; /* Ensure inline styling for images */
+    margin-bottom: 1rem; /* Space below each hobby section */
+  }
+  
+  .hobby-section {
+    background-color: #282c34;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .hobby-section h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem; /* Space below title */
+  }
+  
+  .hobby-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hobby-section li img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+
   }

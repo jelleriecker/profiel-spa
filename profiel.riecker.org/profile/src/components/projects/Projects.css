@@ -10,17 +10,18 @@
 }
 
   .Projects a {
-    color: #61dafb;
+    
   }
 
   .Projects p {
-    color: #61dafb;
+    
   }
   
   .Projects ul { 
-    color: #61dafb;
+    
   }
 
   .Projects li {
-    color: #61dafb;
+    list-style-type: none;
+    color: #ffffff;
   }

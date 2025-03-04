@@ -1,7 +1,6 @@
 // profiel.riecker.org/profile/src/App.js
 
 import React, { useEffect } from 'react';
-// import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Header from './components/header/Header';
 import About from './components/about/About';
@@ -47,14 +46,14 @@ const App = () => {
       {/* About section */}
       <About id="about" className="section" />
 
-      {/* Hobbies section */}
-      <Hobbies id="hobbies" className="section" />
-
       {/* Projects section */}
       <Projects id="projects" className="section" />
 
       {/* Skills section */}
       <Skills id="skills" className="section" />
+
+      {/* Hobbies section */}
+      <Hobbies id="hobbies" className="section" />
 
       {/* Contact section */}
       <Contact id="contact" className="section" />

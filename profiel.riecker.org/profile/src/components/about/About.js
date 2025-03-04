@@ -23,11 +23,11 @@ const About = ({id}) => {
         <br></br>
         <br></br>
 
-        Driven by a passion for cybersecurity, I transitioned my expertise to this dynamic field. I am committed to continuously learning and staying updated on the latest security trends and technologies. My journey has been marked by contributions to open-source projects, where I have honed skills in software development, automation, and collaborative environments.
+        Driven by a passion for cybersecurity, I transitioned my expertise to this dynamic field. I am committed to continuously learning and staying updated on the latest security trends and technologies. My journey has been marked by contributions to automation, and collaborative environments.
         <br></br>
         <br></br>
           
-        Currently, I am actively involved in several cybersecurity initiatives, aiming to enhance both my professional knowledge and contribute meaningfully to the community. With a strong foundation in system administration and a growing skill set in DevOps and cybersecurity, I am dedicated to building a successful career in this vital area.
+        Currently, I am actively developing my webdev and cybersecurity (offensive for now) skills and aiming to enhance both my professional knowledge and contribute meaningfully to the community. With a strong foundation in system administration and a growing skill set in DevOps and cybersecurity, I am dedicated to building a successful career in these vital areas.
         <br></br>
         <br></br>
         
