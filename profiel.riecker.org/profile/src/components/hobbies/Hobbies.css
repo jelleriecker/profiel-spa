@@ -12,11 +12,11 @@
   }
   
   .Hobbies a {
-    /* Add any specific styles for links here */
+    list-style-type: none;
   }
   
   .Hobbies p {
-    /* Add any specific styles for paragraphs here */
+    list-style-type: none;
   }
   
   .Hobbies ul {
