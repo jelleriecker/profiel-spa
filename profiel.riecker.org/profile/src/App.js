@@ -57,6 +57,7 @@ const App = () => {
 
       {/* Contact section */}
       <Contact id="contact" className="section" />
+
     </div>
   );
 };

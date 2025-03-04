@@ -9,7 +9,18 @@
     color: white;
   }
   
+  .Skills h3 {
+    list-style-type: none;
+  }
+
+  .Skills h2 {
+    list-style-type: none;
+  }
   .Skills ul {
     list-style-type: none;
     padding: 0;
+  }
+  
+  .Skills il {
+    list-style-type: none;
   }

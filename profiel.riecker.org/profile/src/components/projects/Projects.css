@@ -5,23 +5,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2px + 2vmin);
   color: white;
 }
 
   .Projects a {
-    
+    list-style-type: none;
   }
 
   .Projects p {
-    
+    list-style-type: none;
   }
   
   .Projects ul { 
-    
+    list-style-type: none;
   }
 
   .Projects li {
+    text-align: left;
+    font-size: 25px;
     list-style-type: none;
     color: #ffffff;
+    margin-left: 16%;
+    margin-right: 16%;
   }

@@ -6,7 +6,7 @@ import './Hobbies.css';
 const Hobbies = ({ id }) => {
   return (
     <section id={id} className="Hobbies">
-      <h2>My hobbies</h2>
+      <h1>My hobbies</h1>
       <div className="hobby-section" id="motorcycling">
         <h3>Motorcycling</h3>
         <ul>
@@ -27,11 +27,18 @@ const Hobbies = ({ id }) => {
         </ul>
       </div>
 
-      <ul>
-        <li>Gaming</li>
-        <li>DIY</li>
-        <li>test</li>
-      </ul>
+      <div className="hobby-section" id="Gaming">
+        <h3>Gaming</h3>
+        <ul>
+        </ul>
+      </div>
+
+      <div className="hobby-section" id="DIY">
+        <h3>DIY</h3>
+        <ul>
+          
+        </ul>
+      </div>
     </section>
   );
 };

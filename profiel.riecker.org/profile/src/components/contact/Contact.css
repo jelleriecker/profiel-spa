@@ -12,3 +12,11 @@
   .Contact a {
     color: #61dafb;
   }
+
+  .Contact p {
+    list-style-type: none;
+  }
+
+  .Contact p1 {
+    font-size: 15px;
+  }
