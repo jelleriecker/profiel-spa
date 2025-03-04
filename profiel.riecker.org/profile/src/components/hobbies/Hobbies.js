@@ -1,19 +1,20 @@
-// src/components/projects/Projects.js
+// src/components/hobbies/Hobbies.js
 import React from 'react';
 import './Hobbies.css';
 
-const Projects = () => {
+const Hobbies = ({ id }) => {
   return (
-    <div className="Hobbies">
+    <section id={id} className="Hobbies">
       <h2>My hobbies</h2>
       <ul>
         <li>Motorcycling</li>
         <li>Gaming</li>
         <li>Photography</li>
         <li>DIY</li>
+        <li>test</li>
       </ul>
-    </div>
+    </section>
   );
 };
 
-export default Projects;
+export default Hobbies;

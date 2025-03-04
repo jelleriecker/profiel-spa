@@ -47,10 +47,10 @@
   }
   
   .bio {
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: 25px; /* Adjust font size as needed */
     line-height: 1.2; /* Improves readability */
     text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
 
   }

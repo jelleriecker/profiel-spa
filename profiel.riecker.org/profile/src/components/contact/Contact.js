@@ -2,13 +2,13 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = () => {
+const Contact = ({ id }) => {
   return (
-    <div className="Contact">
+    <section id={id} className="Contact">
       <h2>Contact Me</h2>
       <p>Email: recruitment-contact.directed192@passfwd.com</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/jelle-riecker">Jelle Riecker</a></p>
-    </div>
+    </section>
   );
 };
 

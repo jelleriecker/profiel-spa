@@ -2,13 +2,15 @@
 import React from 'react';
 import './Footer.css';
 
-const Projects = () => {
-  return (
-    <div className="Footer">
-      <h2>My hobbies</h2>
 
-    </div>
+const Footer = () => {
+  return (
+    <header className="Footer">
+      <h2>Footer WIP</h2>
+      
+    </header>
   );
 };
 
-export default Projects;
+
+export default Footer;

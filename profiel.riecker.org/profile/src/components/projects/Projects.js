@@ -2,9 +2,9 @@
 import React from 'react';
 import './Projects.css';
 
-const Projects = () => {
+const Projects = ({ id }) => {
   return (
-    <div className="Projects">
+    <section id={id} className="Projects">
       <h2>My Projects</h2>
       <ul>
         <li>K8s</li>
@@ -12,7 +12,7 @@ const Projects = () => {
         <li>Security</li>
         <li>WebDev</li>
       </ul>
-    </div>
+    </section>
   );
 };
 

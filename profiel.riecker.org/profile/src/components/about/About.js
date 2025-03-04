@@ -10,10 +10,9 @@ const downloadCv = () => {
   link.click();
 };
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <div className="App">
-      <header className="About">
+    <section id={id} className="About">
         <h2>About</h2>
         <img
           className="profile-photo"
@@ -33,9 +32,9 @@ const About = () => {
         <br></br>
         
         </p>
+        
         <button onClick={downloadCv} className="App-link">Download CV</button>
-      </header>
-    </div>
+        </section>
   );
 };
 

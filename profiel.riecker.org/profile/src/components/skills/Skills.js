@@ -2,15 +2,15 @@
 import React from 'react';
 import './Skills.css';
 
-const Skills = () => {
+const Skills = ({ id }) => {
   return (
-    <div className="Skills">
+    <section id={id} className="Skills">
       <h2>My Skills</h2>
       <ul>
         <li>Skill 1 - Description</li>
         <li>Skill 2 - Description</li>
       </ul>
-    </div>
+    </section>
   );
 };
 
