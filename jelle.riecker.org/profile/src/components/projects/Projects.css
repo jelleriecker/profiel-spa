@@ -1,6 +1,7 @@
 /* profiel.riecker.org/profile/src/components/projects/Projects.css */
 
 .Projects {
+  margin-left: 140px;
   text-align: center;
   background-color: #282c34;
   display: flex;

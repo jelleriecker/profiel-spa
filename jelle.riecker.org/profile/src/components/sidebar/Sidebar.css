@@ -4,15 +4,12 @@
 
 
 .sidebar {
-  position: fixed; /* Keeps the sidebar in view even when scrolling */
-  top: 0;
-  left: 20px; /* Change right to left */
-  width: 150px; /* Ensure the sidebar has a specific width */
-  height: 100%;
+  width: 100px; /* Width of the sidebar */
+  background-color: #37474f; /* Dark background for the sidebar */
+  color: white; /* Text color */
   padding: 20px;
-  background-color: #819cb63d; /* Light blue with some transparency */
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000; /* Ensures the sidebar stays on top of other elements */
+  position: fixed; /* Keeps the sidebar in view even when scrolling */
+  height: 100vh; /* Full viewport height */
 }
   
   .sidebar ul {
@@ -27,12 +24,15 @@
   
   .sidebar a {
     text-decoration: none;
-    color: #909394;
+    color: #ffffff;
     font-size: 1em;
     transition: color 0.3s ease; /* Smooth transition for hover effects */
   }
   
-  .sidebar a:hover,
+  .sidebar a:hover {
+    color: #00aeff;
+  }
+
   .sidebar a.active {
-    color: #216788; /* Changes color on hover or active state */
+    color: #2f9acc; /* Changes color on hover or active state */
   }

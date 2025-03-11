@@ -1,25 +1,26 @@
 /* profiel.riecker.org/profile/src/components/about/About.css */
 .About {
-    text-align: center;
-    background-color: #282c34;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(2px + 2vmin);
-    color: white;
-  }
+  margin-left: 140px;
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: white;
+}
   
 .App-link {
-    color: #000000; /* Text color */
-    background-color: #ffffff; /* Background color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Padding around the text */
-    font-size: 25px; /* Font size */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
-  }
+  color: #000000; /* Text color */
+  background-color: #ffffff; /* Background color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding around the text */
+  font-size: 25px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth Transitions for hover effects */
+}
   
   .App-link:hover {
     background-color: #0056b3; /* Darker background color on hover */
@@ -27,9 +28,9 @@
   }
 
 .about-section {
-    padding: 20px;
-    text-align: center;
-  }
+  padding: 20px;
+  text-align: center;
+}
   
   .profile-container {
     display: flex;

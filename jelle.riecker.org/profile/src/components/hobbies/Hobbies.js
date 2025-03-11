@@ -29,14 +29,19 @@ const Hobbies = ({ id }) => {
 
       <div className="hobby-section" id="Gaming">
         <h3>Gaming</h3>
-        <ul>
+        <ul>These are my favorite games of all time
+        <li></li>
+        <li></li>
+        <li></li>
         </ul>
       </div>
 
       <div className="hobby-section" id="DIY">
         <h3>DIY</h3>
         <ul>
-          
+        <li></li>
+        <li></li>
+        <li></li>
         </ul>
       </div>
     </section>

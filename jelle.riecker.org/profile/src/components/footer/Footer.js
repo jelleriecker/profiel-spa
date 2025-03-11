@@ -6,7 +6,9 @@ import './Footer.css';
 const Footer = () => {
   return (
     <header className="Footer">
-      <h2>Footer WIP</h2>
+      <div class="footer-content">
+      <p>&copy; 2025 Jelle Riecker. All rights reserved.</p>
+      </div>
       
     </header>
   );
