@@ -1,31 +1,27 @@
-.Projects {
+.Skills {
+  margin-left: 140px;
   text-align: center;
   background-color: #282c34;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(2px + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-  .Projects a {
+  
+  .Skills h3 {
     list-style-type: none;
   }
 
-  .Projects p {
+  .Skills h2 {
     list-style-type: none;
+  }
+  .Skills ul {
+    list-style-type: none;
+    padding: 0;
   }
   
-  .Projects ul { 
+  .Skills il {
     list-style-type: none;
-  }
-
-  .Projects li {
-    text-align: left;
-    font-size: 25px;
-    list-style-type: none;
-    color: #ffffff;
-    margin-left: 16%;
-    margin-right: 16%;
   }
