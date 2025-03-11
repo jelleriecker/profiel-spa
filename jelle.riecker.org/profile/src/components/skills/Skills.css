@@ -16,12 +16,16 @@
 
   .Skills h2 {
     list-style-type: none;
-  }
-  .Skills ul {
-    list-style-type: none;
-    padding: 0;
+    font-size: large;
   }
   
-  .Skills il {
+  .Skills ul {
+    list-style-type: none;
+    font-size: large;
+    padding: 0;
+  }
+
+  .Skills li {
+    font-size: 25px;
     list-style-type: none;
   }

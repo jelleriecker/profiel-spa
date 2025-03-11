@@ -7,19 +7,6 @@ const Skills = ({ id }) => {
     <section id={id} className="Skills">
       <h1 class="text-2xl font-semibold">Skills</h1>
         
-        {/* <!-- Software Development --> */}
-        <div class="Development">
-            <h3 class="text-xl font-semibold">Software Development</h3>
-            <ul>
-                <li>Python</li>
-                <li>FastAPI</li>
-                <li>Flask</li>
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-                <li>Tailwind CSS</li>
-                <li>React</li>
-            </ul>
-        </div>
 
         {/* <!-- DevOps --> */}
         <div class="DevOps">
@@ -50,6 +37,20 @@ const Skills = ({ id }) => {
                 <li>Windows System Administration</li>
                 <li>Linux System Administration</li>
                 <li>Network Configuration</li>
+            </ul>
+        </div>
+
+        {/* <!-- Software Development --> */}
+        <div class="Development">
+            <h3 class="text-xl font-semibold">Software Development</h3>
+            <ul>
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Flask</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>Tailwind CSS</li>
+                <li>React</li>
             </ul>
         </div>
     </section>
