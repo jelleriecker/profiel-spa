@@ -12,9 +12,10 @@ const Skills = ({ id }) => {
             <h3 class="text-xl font-semibold">Software Development</h3>
             <ul>
                 <li>Python</li>
+                <li>FastAPI</li>
+                <li>Flask</li>
                 <li>JavaScript</li>
                 <li>HTML/CSS</li>
-                <li>FastAPI</li>
                 <li>Tailwind CSS</li>
                 <li>React</li>
             </ul>
@@ -37,8 +38,8 @@ const Skills = ({ id }) => {
             <h3 class="text-xl font-semibold">Cyber Security</h3>
             <ul>
                 <li>Cybersecurity Fundamentals</li>
-                <li>Network Security</li>
-                <li>Vulnerability Assessment</li>
+                <li>basic pentesting</li>
+                <li>OSINT</li>
             </ul>
         </div>
 
@@ -46,7 +47,7 @@ const Skills = ({ id }) => {
         <div class="Sysadmin">
             <h3 class="text-xl font-semibold">Windows/Linux Administration</h3>
             <ul>
-                <li>Windows Server Management</li>
+                <li>Windows System Administration</li>
                 <li>Linux System Administration</li>
                 <li>Network Configuration</li>
             </ul>
