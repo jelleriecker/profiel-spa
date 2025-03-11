@@ -1,13 +1,8 @@
-// profiel.riecker.org/profile/src/App.js
-
 import React, { useEffect } from 'react';
 import Sidebar from './components/sidebar/Sidebar';
 import Header from './components/header/Header';
-import About from './components/about/About';
-import Projects from './components/projects/Projects';
-import Skills from './components/skills/Skills';
-import Hobbies from './components/hobbies/Hobbies';
-import Contact from './components/contact/Contact';
+import MainContent from './components/main-content/main-content/MainContent';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   useEffect(() => {
@@ -43,21 +38,11 @@ const App = () => {
       {/* Header section */}
       <Header />
 
-      {/* About section */}
-      <About id="about" className="section" />
+      {/* Main Content section */}
+      <MainContent />
 
-      {/* Projects section */}
-      <Projects id="projects" className="section" />
-
-      {/* Skills section */}
-      <Skills id="skills" className="section" />
-
-      {/* Hobbies section */}
-      <Hobbies id="hobbies" className="section" />
-
-      {/* Contact section */}
-      <Contact id="contact" className="section" />
-
+      {/* {Footer section} */}
+      <Footer />
     </div>
   );
 };

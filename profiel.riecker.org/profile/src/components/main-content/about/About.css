@@ -26,9 +26,6 @@
     transform: translateY(-2px); /* Slight lift effect on hover */
   }
 
-
-/* profiel.riecker.org/profile/src/components/about/About.css */
-
 .about-section {
     padding: 20px;
     text-align: center;
@@ -38,7 +35,6 @@
     display: flex;
     align-items: center; /* Vertically centers child elements */
     justify-content: center; /* Horizontally centers child elements */
-    max-width: 600px; /* Optional: Limits the width for better readability */
     margin: 0 auto; /* Centers the container within its parent */
   }
   

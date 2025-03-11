@@ -4,16 +4,16 @@
 
 
 .sidebar {
-    position: fixed; /* Keeps the sidebar in view even when scrolling */
-    top: 0;
-    right: 20px;
-    width: 150px;
-    height: 100%;
-    padding: 20px;
-    background-color: #819cb63d;
-    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Ensures the sidebar stays on top of other elements */
-  }
+  position: fixed; /* Keeps the sidebar in view even when scrolling */
+  top: 0;
+  left: 20px; /* Change right to left */
+  width: 150px; /* Ensure the sidebar has a specific width */
+  height: 100%;
+  padding: 20px;
+  background-color: #819cb63d; /* Light blue with some transparency */
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensures the sidebar stays on top of other elements */
+}
   
   .sidebar ul {
     list-style-type: none; /* Removes default bullet points */

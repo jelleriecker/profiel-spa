@@ -1,0 +1,43 @@
+/* profiel.riecker.org/profile/src/components/projects/Projects.css */
+
+.Projects {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: white;
+}
+
+.project-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows projects to wrap into multiple lines if needed */
+  justify-content: center; /* Centers project items horizontally */
+  align-items: stretch; /* Aligns project items vertically */
+  gap: 20px; /* Adds space between project items */
+}
+
+.project-item {
+  width: calc(33.333% - 20px); /* Adjusts project item width for three columns */
+  flex-shrink: 0; /* Prevents project items from shrinking */
+}
+
+.project-item h3 {
+  font-size: 25px;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.project-item p {
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: left;
+  color: #d4d4d4; /* Slightly lighter than the main text for better contrast */
+}

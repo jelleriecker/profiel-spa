@@ -1,0 +1,11 @@
+/* profiel.riecker.org/profile/src/components/MainContent.css */
+
+body {
+    display: flex;
+    margin: 0; /* Remove default body margin */
+  }
+  
+  .MainContent {
+    margin-left: 170px; /* Width of the sidebar (150px) plus some buffer (20px) */
+    padding: 20px;
+  }
