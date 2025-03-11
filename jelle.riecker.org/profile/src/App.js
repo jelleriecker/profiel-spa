@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import Sidebar from './components/sidebar/Sidebar';
 import Header from './components/header/Header';
-import MainContent from './components/main-content/main-content/MainContent';
 import Footer from './components/footer/Footer';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Hobbies from './components/hobbies/Hobbies';
 
 const App = () => {
   useEffect(() => {
@@ -32,16 +34,11 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* Sidebar component */}
       <Sidebar />
-
-      {/* Header section */}
       <Header />
-
-      {/* Main Content section */}
-      <MainContent />
-
-      {/* {Footer section} */}
+      <About />
+      <Projects />
+      <Hobbies />
       <Footer />
     </div>
   );
